@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Name Tracing Worksheet Maker (Printable, No Sign-Up)</title><meta name="description" content="Type your child&#x27;s name and print a custom name tracing worksheet in seconds. Free, no sign-up, works on phone and computer.">
+<link rel="canonical" href="https://chillspace05-collab.github.io/chill-factory/tools/name-tracing/">
+<meta property="og:title" content="Free Name Tracing Worksheet Maker (Printable, No Sign-Up)"><meta property="og:description" content="Type your child&#x27;s name and print a custom name tracing worksheet in seconds. Free, no sign-up, works on phone and computer.">
+<meta property="og:type" content="article"><meta property="og:url" content="https://chillspace05-collab.github.io/chill-factory/tools/name-tracing/">
+<meta property="og:site_name" content="Chillspace Free Printables"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/chill-factory/style.css"><link rel="icon" href="/chill-factory/favicon.svg"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Name Tracing Worksheet Maker", "applicationCategory": "EducationalApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/chill-factory/">chill<span>space</span> printables</a>
+<nav><a href="/chill-factory/word-search/">Word Search</a><a href="/chill-factory/word-tracing/">Tracing</a><a href="/chill-factory/mazes/">Mazes</a><a href="/chill-factory/tools/name-tracing/">Name Tracing Maker</a></nav></div></header>
+<main class="wrap"><div class="crumbs"><a href="/chill-factory/">Home</a> · Tools</div>
+<h1>Free Name Tracing Worksheet Maker</h1>
+<p>Type a name, pick a style, and print. Everything happens in your browser — the name is never sent anywhere.</p>
+<style>
+.nt{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:26px;margin-top:10px}
+.nt label{display:block;font-weight:800;margin:14px 0 6px}.nt input,.nt select{width:100%;font:inherit;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:#fff}
+.nt img{width:100%;border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:0 6px 20px #0000000d}
+@media (max-width:760px){.nt{grid-template-columns:1fr}}
+@media print{@page{size:letter;margin:0}body *{visibility:hidden}#sheet,#sheet *{visibility:visible}#sheet{position:fixed;inset:0;width:100%;border:0;border-radius:0;box-shadow:none}}
+</style>
+<div class="nt"><div>
+<label for="nm">Child's name</label><input id="nm" maxlength="14" value="Emma" autocomplete="off">
+<label for="cs">Letters</label><select id="cs"><option value="title">First letter capital (Emma)</option><option value="upper">ALL CAPITALS (EMMA)</option><option value="lower">all lowercase (emma)</option></select>
+<label for="st">Tracing style</label><select id="st"><option value="gray">Light gray letters</option><option value="dots">Dotted outline</option></select>
+<label for="rw">Rows per page</label><select id="rw"><option>5</option><option selected>6</option><option>8</option></select>
+<p style="margin-top:22px"><button class="btn" id="pr">🖨 Print worksheet</button></p>
+<p><a class="btn alt" id="dl" download="name-tracing.png" href="#">Download image</a></p>
+<a class="upsell" href="https://chillscape8.gumroad.com/l/ljoyx?utm_source=freeprintables&amp;utm_medium=site&amp;utm_content=name-tracing-tool"><img src="https://public-files.gumroad.com/shqo5ivkjffekgrr2k4iir3lyi48" alt="" loading="lazy"><div><small>Learning letters too?</small><br><b>Alphabet Tracing &amp; Letter Hunt Binder</b><br>Printable PDF · $2.50 →</div></a>
+</div><div><img id="sheet" alt="Name tracing worksheet preview"></div></div>
+<h2>How to use the name tracing worksheet</h2>
+<p>Children start by tracing their name on the gray letters, following the top line, the dashed middle line and the baseline. The empty lines underneath are for writing the name on their own. Print a fresh page each week, or put one in a sheet protector and use a dry-erase marker.</p>
+<script>
+(() => {
+  const W = 1275, H = 1650, M = 80, cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+  const c = cv.getContext('2d'), $ = id => document.getElementById(id);
+  const ACC = ['#ef8354', '#4f9d69', '#3d7ea6', '#c05299', '#7b6cd9'];
+  function draw() {
+    let n = ($('nm').value || 'Name').trim().replace(/[^\p{L}\p{M}' -]/gu, '').slice(0, 14) || 'Name';
+    const cs = $('cs').value; n = cs === 'upper' ? n.toUpperCase() : cs === 'lower' ? n.toLowerCase() : n.charAt(0).toUpperCase() + n.slice(1).toLowerCase();
+    const rows = +$('rw').value, acc = ACC[n.length % ACC.length];
+    c.fillStyle = '#fff'; c.fillRect(0, 0, W, H);
+    c.fillStyle = acc; c.beginPath(); c.roundRect(M, 60, W - 2 * M, 16, 8); c.fill();
+    c.fillStyle = '#2b2d42'; c.textAlign = 'center'; c.font = '600 64px Fredoka'; c.fillText('Write My Name', W / 2, 160);
+    c.font = '700 26px Nunito'; c.fillStyle = '#8d99ae'; c.fillText('Trace the gray letters, then write your name on your own.', W / 2, 205);
+    const top = 250, rowH = (H - top - 90) / rows, x0 = M, x1 = W - M;
+    let size = rowH * 0.62; c.font = `800 ${size}px Nunito`;
+    const gap = size * 0.9; let w = c.measureText(n).width;
+    while (w > (x1 - x0) - 40 && size > 20) { size -= 2; c.font = `800 ${size}px Nunito`; w = c.measureText(n).width; }
+    for (let r = 0; r < rows; r++) {
+      const base = top + rowH * (r + 1) - rowH * 0.22, xh = size * 0.36;
+      c.strokeStyle = '#8d99ae'; c.lineWidth = 2; c.setLineDash([]);
+      c.beginPath(); c.moveTo(x0, base - xh * 2); c.lineTo(x1, base - xh * 2); c.moveTo(x0, base); c.lineTo(x1, base); c.stroke();
+      c.setLineDash([12, 12]); c.beginPath(); c.moveTo(x0, base - xh); c.lineTo(x1, base - xh); c.stroke(); c.setLineDash([]);
+      if (r >= rows - 2) continue;
+      c.textAlign = 'left'; c.font = `800 ${size}px Nunito`;
+      let x = x0 + 12;
+      do {
+        if (r === 0 && x === x0 + 12) { c.fillStyle = acc; c.fillText(n, x, base); }
+        else if ($('st').value === 'dots') { c.strokeStyle = '#9aa3b5'; c.lineWidth = 3; c.setLineDash([3, 7]); c.lineCap = 'round'; c.strokeText(n, x, base); c.setLineDash([]); }
+        else { c.fillStyle = '#ccd1db'; c.fillText(n, x, base); }
+        x += w + gap;
+      } while (x + w < x1);
+    }
+    c.textAlign = 'center'; c.fillStyle = '#8d99ae'; c.font = '700 20px Nunito';
+    c.fillText('Free printable by Chillspace · chillspace05-collab.github.io/chill-factory', W / 2, H - 36);
+    const u = cv.toDataURL('image/png'); $('sheet').src = u; $('dl').href = u;
+    $('dl').download = n.toLowerCase().replace(/\s+/g, '-') + '-name-tracing.png';
+  }
+  ['nm', 'cs', 'st', 'rw'].forEach(id => $(id).addEventListener('input', draw));
+  $('pr').addEventListener('click', () => window.print());
+  const q = new URLSearchParams(location.search).get('name'); if (q) $('nm').value = q.slice(0, 14);
+  Promise.all([document.fonts.load('800 80px Nunito'), document.fonts.load('600 64px Fredoka')]).finally(draw);
+})();
+</script>
+</main>
+<footer><div class="wrap">Free printables for parents, teachers and homeschoolers. Free for personal and classroom use — please share a link instead of re-uploading the files.
+<br><a href="/chill-factory/about/">About &amp; privacy</a> · <a href="https://chillscape8.gumroad.com/?utm_source=freeprintables&amp;utm_medium=footer">Chillspace shop</a></div></footer>
+</body></html>
