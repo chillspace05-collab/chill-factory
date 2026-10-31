@@ -477,5 +477,99 @@
   "preview": "img/farm-word-search.jpg",
   "key_img": "img/farm-word-search-key.jpg",
   "pin": "img/farm-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-2",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 2 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 2",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-10-31",
+  "pdf": "files/mazes-for-kids-set-2.pdf",
+  "kb": 59,
+  "preview": "img/mazes-for-kids-set-2.jpg",
+  "key_img": "img/mazes-for-kids-set-2-key.jpg",
+  "pin": "img/mazes-for-kids-set-2-pin.jpg"
+ },
+ {
+  "slug": "ocean-word-search",
+  "type": "word-search",
+  "theme": "ocean",
+  "title": "Free Printable Ocean Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Ocean Word Search",
+  "pages": 4,
+  "words": [
+   "CORAL",
+   "CRAB",
+   "DOLPHIN",
+   "FISH",
+   "JELLYFISH",
+   "OCTOPUS",
+   "SAND",
+   "SEAHORSE",
+   "SEAL",
+   "SHARK",
+   "SHELL",
+   "STARFISH",
+   "TURTLE",
+   "WAVE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "itippi",
+  "created": "2026-10-31",
+  "pdf": "files/ocean-word-search.pdf",
+  "kb": 37,
+  "preview": "img/ocean-word-search.jpg",
+  "key_img": "img/ocean-word-search-key.jpg",
+  "pin": "img/ocean-word-search-pin.jpg"
+ },
+ {
+  "slug": "space-word-search",
+  "type": "word-search",
+  "theme": "space",
+  "title": "Free Printable Outer Space Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Outer Space Word Search",
+  "pages": 4,
+  "words": [
+   "ALIEN",
+   "ASTRONAUT",
+   "COMET",
+   "EARTH",
+   "GALAXY",
+   "MARS",
+   "METEOR",
+   "MOON",
+   "ORBIT",
+   "PLANET",
+   "ROCKET",
+   "SATURN",
+   "STAR",
+   "SUN",
+   "TELESCOPE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-10-31",
+  "pdf": "files/space-word-search.pdf",
+  "kb": 36,
+  "preview": "img/space-word-search.jpg",
+  "key_img": "img/space-word-search-key.jpg",
+  "pin": "img/space-word-search-pin.jpg"
  }
 ]
