@@ -680,5 +680,99 @@
   "preview": "img/vegetables-word-search.jpg",
   "key_img": "img/vegetables-word-search-key.jpg",
   "pin": "img/vegetables-word-search-pin.jpg"
+ },
+ {
+  "slug": "bugs-word-search",
+  "type": "word-search",
+  "theme": "bugs",
+  "title": "Free Printable Bugs and Insects Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Bugs and Insects Word Search",
+  "pages": 4,
+  "words": [
+   "ANT",
+   "BEE",
+   "BEETLE",
+   "BUTTERFLY",
+   "CRICKET",
+   "DRAGONFLY",
+   "FIREFLY",
+   "GRASSHOPPER",
+   "LADYBUG",
+   "MOTH",
+   "SNAIL",
+   "SPIDER",
+   "WASP",
+   "WORM"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-01",
+  "pdf": "files/bugs-word-search.pdf",
+  "kb": 37,
+  "preview": "img/bugs-word-search.jpg",
+  "key_img": "img/bugs-word-search-key.jpg",
+  "pin": "img/bugs-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-3",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 3 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 3",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-01",
+  "pdf": "files/mazes-for-kids-set-3.pdf",
+  "kb": 59,
+  "preview": "img/mazes-for-kids-set-3.jpg",
+  "key_img": "img/mazes-for-kids-set-3-key.jpg",
+  "pin": "img/mazes-for-kids-set-3-pin.jpg"
+ },
+ {
+  "slug": "vehicles-word-search",
+  "type": "word-search",
+  "theme": "vehicles",
+  "title": "Free Printable Things That Go Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Things That Go Word Search",
+  "pages": 4,
+  "words": [
+   "BIKE",
+   "BOAT",
+   "BUS",
+   "CAR",
+   "HELICOPTER",
+   "PLANE",
+   "ROCKET",
+   "SCOOTER",
+   "SHIP",
+   "SUBMARINE",
+   "TAXI",
+   "TRACTOR",
+   "TRAIN",
+   "TRUCK",
+   "VAN"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-11-01",
+  "pdf": "files/vehicles-word-search.pdf",
+  "kb": 37,
+  "preview": "img/vehicles-word-search.jpg",
+  "key_img": "img/vehicles-word-search-key.jpg",
+  "pin": "img/vehicles-word-search-pin.jpg"
  }
 ]
