@@ -774,5 +774,112 @@
   "preview": "img/vehicles-word-search.jpg",
   "key_img": "img/vehicles-word-search-key.jpg",
   "pin": "img/vehicles-word-search-pin.jpg"
+ },
+ {
+  "slug": "weather-word-search",
+  "type": "word-search",
+  "theme": "weather",
+  "title": "Free Printable Weather Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Weather Word Search",
+  "pages": 4,
+  "words": [
+   "CLOUD",
+   "COLD",
+   "FOG",
+   "HAIL",
+   "LIGHTNING",
+   "RAIN",
+   "RAINBOW",
+   "SNOW",
+   "STORM",
+   "SUN",
+   "SUNNY",
+   "THUNDER",
+   "UMBRELLA",
+   "WARM",
+   "WIND"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-02",
+  "pdf": "files/weather-word-search.pdf",
+  "kb": 36,
+  "preview": "img/weather-word-search.jpg",
+  "key_img": "img/weather-word-search-key.jpg",
+  "pin": "img/weather-word-search-pin.jpg"
+ },
+ {
+  "slug": "colors-word-search",
+  "type": "word-search",
+  "theme": "colors",
+  "title": "Free Printable Colors Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Colors Word Search",
+  "pages": 4,
+  "words": [
+   "BLACK",
+   "BLUE",
+   "BROWN",
+   "GOLD",
+   "GRAY",
+   "GREEN",
+   "ORANGE",
+   "PINK",
+   "PURPLE",
+   "RED",
+   "SILVER",
+   "WHITE",
+   "YELLOW"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "shapes-tracing-coloring",
+  "created": "2026-11-02",
+  "pdf": "files/colors-word-search.pdf",
+  "kb": 37,
+  "preview": "img/colors-word-search.jpg",
+  "key_img": "img/colors-word-search-key.jpg",
+  "pin": "img/colors-word-search-pin.jpg"
+ },
+ {
+  "slug": "shapes-word-search",
+  "type": "word-search",
+  "theme": "shapes",
+  "title": "Free Printable Shapes Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Shapes Word Search",
+  "pages": 4,
+  "words": [
+   "CIRCLE",
+   "CONE",
+   "CUBE",
+   "DIAMOND",
+   "HEART",
+   "HEXAGON",
+   "OVAL",
+   "PENTAGON",
+   "RECTANGLE",
+   "SPHERE",
+   "SQUARE",
+   "STAR",
+   "TRIANGLE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "shapes-tracing-coloring",
+  "created": "2026-11-02",
+  "pdf": "files/shapes-word-search.pdf",
+  "kb": 37,
+  "preview": "img/shapes-word-search.jpg",
+  "key_img": "img/shapes-word-search-key.jpg",
+  "pin": "img/shapes-word-search-pin.jpg"
  }
 ]
