@@ -881,5 +881,99 @@
   "preview": "img/shapes-word-search.jpg",
   "key_img": "img/shapes-word-search-key.jpg",
   "pin": "img/shapes-word-search-pin.jpg"
+ },
+ {
+  "slug": "body-word-search",
+  "type": "word-search",
+  "theme": "body",
+  "title": "Free Printable My Body Word Search for Kids (3 Levels + Answer Key)",
+  "short": "My Body Word Search",
+  "pages": 4,
+  "words": [
+   "ARM",
+   "EARS",
+   "EYES",
+   "FINGER",
+   "FOOT",
+   "HAIR",
+   "HAND",
+   "HEAD",
+   "KNEE",
+   "LEG",
+   "MOUTH",
+   "NOSE",
+   "SHOULDER",
+   "TEETH",
+   "TOES"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-at-home-plan",
+  "created": "2026-11-03",
+  "pdf": "files/body-word-search.pdf",
+  "kb": 36,
+  "preview": "img/body-word-search.jpg",
+  "key_img": "img/body-word-search-key.jpg",
+  "pin": "img/body-word-search-pin.jpg"
+ },
+ {
+  "slug": "family-word-search",
+  "type": "word-search",
+  "theme": "family",
+  "title": "Free Printable Family Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Family Word Search",
+  "pages": 4,
+  "words": [
+   "AUNT",
+   "BABY",
+   "BROTHER",
+   "COUSIN",
+   "DAD",
+   "GRANDMA",
+   "GRANDPA",
+   "HOME",
+   "HUG",
+   "LOVE",
+   "MOM",
+   "PET",
+   "SISTER",
+   "UNCLE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-at-home-plan",
+  "created": "2026-11-03",
+  "pdf": "files/family-word-search.pdf",
+  "kb": 37,
+  "preview": "img/family-word-search.jpg",
+  "key_img": "img/family-word-search-key.jpg",
+  "pin": "img/family-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-4",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 4 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 4",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-03",
+  "pdf": "files/mazes-for-kids-set-4.pdf",
+  "kb": 59,
+  "preview": "img/mazes-for-kids-set-4.jpg",
+  "key_img": "img/mazes-for-kids-set-4-key.jpg",
+  "pin": "img/mazes-for-kids-set-4-pin.jpg"
  }
 ]
