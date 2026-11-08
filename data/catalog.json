@@ -1373,5 +1373,100 @@
   "preview": "img/sports-word-search.jpg",
   "key_img": "img/sports-word-search-key.jpg",
   "pin": "img/sports-word-search-pin.jpg"
+ },
+ {
+  "slug": "birthday-word-search",
+  "type": "word-search",
+  "theme": "birthday",
+  "title": "Free Printable Birthday Party Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Birthday Party Word Search",
+  "pages": 4,
+  "words": [
+   "BALLOON",
+   "CAKE",
+   "CANDLES",
+   "CARD",
+   "CELEBRATE",
+   "CUPCAKE",
+   "FRIENDS",
+   "GAMES",
+   "GIFT",
+   "HAT",
+   "PARTY",
+   "PRESENT",
+   "SING",
+   "STREAMER",
+   "WISH"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-11-08",
+  "pdf": "files/birthday-word-search.pdf",
+  "kb": 37,
+  "preview": "img/birthday-word-search.jpg",
+  "key_img": "img/birthday-word-search-key.jpg",
+  "pin": "img/birthday-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-6",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 6 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 6",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-08",
+  "pdf": "files/mazes-for-kids-set-6.pdf",
+  "kb": 60,
+  "preview": "img/mazes-for-kids-set-6.jpg",
+  "key_img": "img/mazes-for-kids-set-6-key.jpg",
+  "pin": "img/mazes-for-kids-set-6-pin.jpg"
+ },
+ {
+  "slug": "woodland-word-search",
+  "type": "word-search",
+  "theme": "woodland",
+  "title": "Free Printable Woodland Animals Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Woodland Animals Word Search",
+  "pages": 4,
+  "words": [
+   "BADGER",
+   "BEAR",
+   "CHIPMUNK",
+   "DEER",
+   "FOX",
+   "HEDGEHOG",
+   "MOOSE",
+   "MUSHROOM",
+   "OWL",
+   "PINECONE",
+   "RABBIT",
+   "RACCOON",
+   "SKUNK",
+   "SQUIRREL",
+   "WOLF"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-08",
+  "pdf": "files/woodland-word-search.pdf",
+  "kb": 37,
+  "preview": "img/woodland-word-search.jpg",
+  "key_img": "img/woodland-word-search-key.jpg",
+  "pin": "img/woodland-word-search-pin.jpg"
  }
 ]
