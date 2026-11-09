@@ -1468,5 +1468,113 @@
   "preview": "img/woodland-word-search.jpg",
   "key_img": "img/woodland-word-search-key.jpg",
   "pin": "img/woodland-word-search-pin.jpg"
+ },
+ {
+  "slug": "rainforest-word-search",
+  "type": "word-search",
+  "theme": "rainforest",
+  "title": "Free Printable Rainforest Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Rainforest Word Search",
+  "pages": 4,
+  "words": [
+   "FROG",
+   "GORILLA",
+   "IGUANA",
+   "JAGUAR",
+   "LEAF",
+   "MONKEY",
+   "ORCHID",
+   "PARROT",
+   "RAIN",
+   "SLOTH",
+   "SNAKE",
+   "TREE",
+   "VINE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-09",
+  "pdf": "files/rainforest-word-search.pdf",
+  "kb": 37,
+  "preview": "img/rainforest-word-search.jpg",
+  "key_img": "img/rainforest-word-search-key.jpg",
+  "pin": "img/rainforest-word-search-pin.jpg"
+ },
+ {
+  "slug": "birds-word-search",
+  "type": "word-search",
+  "theme": "birds",
+  "title": "Free Printable Birds Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Birds Word Search",
+  "pages": 4,
+  "words": [
+   "BEAK",
+   "CROW",
+   "DUCK",
+   "EAGLE",
+   "FLAMINGO",
+   "HAWK",
+   "NEST",
+   "OWL",
+   "PARROT",
+   "PENGUIN",
+   "PIGEON",
+   "ROBIN",
+   "SWAN",
+   "WING"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-09",
+  "pdf": "files/birds-word-search.pdf",
+  "kb": 37,
+  "preview": "img/birds-word-search.jpg",
+  "key_img": "img/birds-word-search-key.jpg",
+  "pin": "img/birds-word-search-pin.jpg"
+ },
+ {
+  "slug": "construction-word-search",
+  "type": "word-search",
+  "theme": "construction",
+  "title": "Free Printable Construction Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Construction Word Search",
+  "pages": 4,
+  "words": [
+   "BRICK",
+   "BUILDER",
+   "BULLDOZER",
+   "CONCRETE",
+   "CRANE",
+   "DIGGER",
+   "DRILL",
+   "EXCAVATOR",
+   "HAMMER",
+   "HELMET",
+   "LADDER",
+   "NAILS",
+   "SAW",
+   "TOOLS",
+   "TRUCK"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-11-09",
+  "pdf": "files/construction-word-search.pdf",
+  "kb": 37,
+  "preview": "img/construction-word-search.jpg",
+  "key_img": "img/construction-word-search-key.jpg",
+  "pin": "img/construction-word-search-pin.jpg"
  }
 ]
