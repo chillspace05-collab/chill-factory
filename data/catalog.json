@@ -1576,5 +1576,98 @@
   "preview": "img/construction-word-search.jpg",
   "key_img": "img/construction-word-search-key.jpg",
   "pin": "img/construction-word-search-pin.jpg"
+ },
+ {
+  "slug": "pirates-word-search",
+  "type": "word-search",
+  "theme": "pirates",
+  "title": "Free Printable Pirates Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Pirates Word Search",
+  "pages": 4,
+  "words": [
+   "ANCHOR",
+   "CAPTAIN",
+   "CHEST",
+   "COMPASS",
+   "FLAG",
+   "GOLD",
+   "HOOK",
+   "ISLAND",
+   "MAP",
+   "OCEAN",
+   "PARROT",
+   "SAIL",
+   "SHIP",
+   "SWORD",
+   "TREASURE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "itippi",
+  "created": "2026-11-10",
+  "pdf": "files/pirates-word-search.pdf",
+  "kb": 37,
+  "preview": "img/pirates-word-search.jpg",
+  "key_img": "img/pirates-word-search-key.jpg",
+  "pin": "img/pirates-word-search-pin.jpg"
+ },
+ {
+  "slug": "fairy-tale-word-search",
+  "type": "word-search",
+  "theme": "fairy-tale",
+  "title": "Free Printable Fairy Tale Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Fairy Tale Word Search",
+  "pages": 4,
+  "words": [
+   "CASTLE",
+   "FAIRY",
+   "FROG",
+   "KING",
+   "KNIGHT",
+   "MAGIC",
+   "PRINCE",
+   "PRINCESS",
+   "QUEEN",
+   "TOWER",
+   "UNICORN",
+   "WAND",
+   "WIZARD"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-11-10",
+  "pdf": "files/fairy-tale-word-search.pdf",
+  "kb": 37,
+  "preview": "img/fairy-tale-word-search.jpg",
+  "key_img": "img/fairy-tale-word-search-key.jpg",
+  "pin": "img/fairy-tale-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-7",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 7 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 7",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-10",
+  "pdf": "files/mazes-for-kids-set-7.pdf",
+  "kb": 59,
+  "preview": "img/mazes-for-kids-set-7.jpg",
+  "key_img": "img/mazes-for-kids-set-7-key.jpg",
+  "pin": "img/mazes-for-kids-set-7-pin.jpg"
  }
 ]
