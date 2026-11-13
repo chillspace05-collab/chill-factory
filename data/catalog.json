@@ -1890,5 +1890,100 @@
   "preview": "img/number-words-word-search.jpg",
   "key_img": "img/number-words-word-search-key.jpg",
   "pin": "img/number-words-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-8",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 8 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 8",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-13",
+  "pdf": "files/mazes-for-kids-set-8.pdf",
+  "kb": 60,
+  "preview": "img/mazes-for-kids-set-8.jpg",
+  "key_img": "img/mazes-for-kids-set-8-key.jpg",
+  "pin": "img/mazes-for-kids-set-8-pin.jpg"
+ },
+ {
+  "slug": "desert-word-search",
+  "type": "word-search",
+  "theme": "desert",
+  "title": "Free Printable Desert Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Desert Word Search",
+  "pages": 4,
+  "words": [
+   "CACTUS",
+   "CAMEL",
+   "COYOTE",
+   "DUNE",
+   "HAWK",
+   "HOT",
+   "LIZARD",
+   "MIRAGE",
+   "OASIS",
+   "ROADRUNNER",
+   "SAND",
+   "SCORPION",
+   "SNAKE",
+   "SUN",
+   "TORTOISE"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "elarza",
+  "created": "2026-11-13",
+  "pdf": "files/desert-word-search.pdf",
+  "kb": 37,
+  "preview": "img/desert-word-search.jpg",
+  "key_img": "img/desert-word-search-key.jpg",
+  "pin": "img/desert-word-search-pin.jpg"
+ },
+ {
+  "slug": "alphabet-word-search",
+  "type": "word-search",
+  "theme": "alphabet",
+  "title": "Free Printable ABC Animals Word Search for Kids (3 Levels + Answer Key)",
+  "short": "ABC Animals Word Search",
+  "pages": 4,
+  "words": [
+   "ANT",
+   "BEAR",
+   "CAT",
+   "DOG",
+   "ELEPHANT",
+   "FROG",
+   "GOAT",
+   "HORSE",
+   "IGUANA",
+   "JAGUAR",
+   "KOALA",
+   "LION",
+   "MOUSE",
+   "NEWT",
+   "OTTER"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "ljoyx",
+  "created": "2026-11-13",
+  "pdf": "files/alphabet-word-search.pdf",
+  "kb": 37,
+  "preview": "img/alphabet-word-search.jpg",
+  "key_img": "img/alphabet-word-search-key.jpg",
+  "pin": "img/alphabet-word-search-pin.jpg"
  }
 ]
