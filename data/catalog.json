@@ -2678,5 +2678,98 @@
   "preview": "img/woodland-word-scramble.jpg",
   "key_img": "img/woodland-word-scramble-key.jpg",
   "pin": "img/woodland-word-scramble-pin.jpg"
+ },
+ {
+  "slug": "valentines-word-search",
+  "type": "word-search",
+  "theme": "valentines",
+  "title": "Free Printable Valentine's Day Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Valentine's Day Word Search",
+  "pages": 4,
+  "words": [
+   "CANDY",
+   "CARD",
+   "CHOCOLATE",
+   "CUPID",
+   "FRIEND",
+   "HEART",
+   "HUG",
+   "KIND",
+   "LOVE",
+   "PINK",
+   "RED",
+   "ROSE",
+   "SHARE",
+   "SWEET"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "valentines-activity-pack",
+  "created": "2026-11-22",
+  "pdf": "files/valentines-word-search.pdf",
+  "kb": 37,
+  "preview": "img/valentines-word-search.jpg",
+  "key_img": "img/valentines-word-search-key.jpg",
+  "pin": "img/valentines-word-search-pin.jpg"
+ },
+ {
+  "slug": "mazes-for-kids-set-12",
+  "type": "mazes",
+  "theme": null,
+  "title": "Free Printable Mazes for Kids – Set 12 (Easy to Hard + Solutions)",
+  "short": "Mazes for Kids Set 12",
+  "pages": 7,
+  "words": [],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack-2",
+  "created": "2026-11-22",
+  "pdf": "files/mazes-for-kids-set-12.pdf",
+  "kb": 60,
+  "preview": "img/mazes-for-kids-set-12.jpg",
+  "key_img": "img/mazes-for-kids-set-12-key.jpg",
+  "pin": "img/mazes-for-kids-set-12-pin.jpg"
+ },
+ {
+  "slug": "lunar-new-year-word-search",
+  "type": "word-search",
+  "theme": "lunar-new-year",
+  "title": "Free Printable Lunar New Year Word Search for Kids (3 Levels + Answer Key)",
+  "short": "Lunar New Year Word Search",
+  "pages": 4,
+  "words": [
+   "DANCE",
+   "DRAGON",
+   "DRUM",
+   "DUMPLING",
+   "FAMILY",
+   "FIREWORKS",
+   "GOLD",
+   "LANTERN",
+   "LION",
+   "NOODLES",
+   "ORANGE",
+   "PARADE",
+   "RED",
+   "ZODIAC"
+  ],
+  "levels": [
+   "easy",
+   "medium",
+   "hard"
+  ],
+  "upsell": "preschool-mega-pack",
+  "created": "2026-11-22",
+  "pdf": "files/lunar-new-year-word-search.pdf",
+  "kb": 36,
+  "preview": "img/lunar-new-year-word-search.jpg",
+  "key_img": "img/lunar-new-year-word-search-key.jpg",
+  "pin": "img/lunar-new-year-word-search-pin.jpg"
  }
 ]
